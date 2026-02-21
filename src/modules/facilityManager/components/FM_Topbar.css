@@ -1,0 +1,75 @@
+.topbar {
+  height: 70px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 2px 15px rgba(0, 40, 87, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #002857;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle-btn:hover {
+  background: rgba(0, 178, 255, 0.1);
+  color: #00b2ff;
+}
+
+.topbar-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar h3 {
+  color: #002857;
+  font-weight: 600;
+  margin: 0;
+}
+
+.role-badge {
+  background: rgba(0, 178, 255, 0.1);
+  color: #00b2ff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, #ff7514, #ff9b4d);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 117, 20, 0.3);
+}

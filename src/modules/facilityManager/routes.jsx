@@ -6,7 +6,7 @@ import FM_Users from "./pages/FM_Users";
 import FM_Recommendations from "./pages/FM_Recommendations";
 import FM_Rooms from "./pages/FM_Rooms";
 import FM_Reports from "./pages/FM_Reports";
-
+import FM_Bookings from "./pages/FM_Bookings";
 export default function FacilityManagerRoutes() {
   return (
     <DashboardLayout role="Facility Manager">
@@ -16,6 +16,8 @@ export default function FacilityManagerRoutes() {
         <Route path="recommendations" element={<FM_Recommendations />} />
         <Route path="rooms" element={<FM_Rooms />} />
         <Route path="reports" element={<FM_Reports />} />
+        <Route path="bookings" element={<FM_Bookings />} />
+
       </Routes>
     </DashboardLayout>
   );
